@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
   <remote  name="versalogic-github"
            fetch="git://github.com/versalogic/" />
   <default revision="refs/tags/android-7.1.1_r13"
