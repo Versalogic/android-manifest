@@ -25,6 +25,7 @@
 
   <!-- machine layer -->
   <project path="device/versalogic/" name="android_device_versalogic" remote="versalogic-github" revision="versalogic-imx-O8.0.0_1.0.0-ga" />
+  <project path="device/fsl" name="android-imx/device/fsl" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="vendor/nxp-opensource/imx" name="android-imx/platform/hardware/imx" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="vendor/nxp-opensource/fsl_imx_demo" name="android-imx/platform/packages/apps/fsl_imx_demo" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
 
