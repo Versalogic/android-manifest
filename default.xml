@@ -2,11 +2,6 @@
 <manifest>
   <remote  name="versalogic-github"
            fetch="git://github.com/versalogic/" />
-  <remote  name="android-imx"
-           fetch="https://source.codeaurora.org/external/imx/"
-           review="" />
-
-  <include name="imx-manifest/imx-o8.0.0_1.0.0_ga.xml" revision="imx-android-oreo" remote="android-imx" />
 
   <!-- kernel and U-Boot -->
   <project path="vendor/nxp-opensource/uboot-imx" name="u-boot-versalogic" revision="2017.03-1.0.0-versalogic-android" remote="versalogic-github" />
